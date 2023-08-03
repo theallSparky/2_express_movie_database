@@ -18,7 +18,6 @@ const main = async () => {
     })
     jimCarrey.save()
 
-
     const idrisElba = await new Actor({
             first_name: 'Idrissa',
             middle_name: 'Akuna',
