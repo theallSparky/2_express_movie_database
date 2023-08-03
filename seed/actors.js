@@ -1,7 +1,7 @@
 // All of the info referenced at time of typing is from the website 'themoviedb.org'. Credit and thanks to them for the incredible resources, including using the movie description word for word.
 
 const db = require('../db')
-const Actor = require('../models/actor.js')
+const { Actor } = require('../models/actor.js')
 db.on('error', console.error.bind(console, 'MongoDB connection error:'))
 
 const main = async () => {

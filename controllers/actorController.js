@@ -14,7 +14,7 @@ const getActorById = async (req, res) => {
         res.json(actor)
     } catch (e) {
         console.log(e)
-        res.send('actor not foun')
+        res.send('actor not found')
     }
 }
 

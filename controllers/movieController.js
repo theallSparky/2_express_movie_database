@@ -1,5 +1,5 @@
 const { Movie } = require('../models')
-const movieSchema  = require('../models/movie')
+const movieSchema = require('../models/movie')
 
 const getMovies = async (req, res) => {
     const movies = await Movie.find({})
